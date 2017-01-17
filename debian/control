@@ -1,0 +1,49 @@
+Source: qtcharts-opensource-src
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9), pkg-kde-tools, qtbase5-dev
+Standards-Version: 3.9.8
+Section: libs
+Homepage: http://qt-project.org/
+
+Package: libqt5charts5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}
+Description: Qt 5 Charts module
+ Qt Charts module provides a set of easy to use chart components. It uses
+ the Qt Graphics View Framework, therefore charts can be easily integrated
+ to modern user interfaces.
+
+Package: libqt5charts5-dev
+Section: libdevel
+Architecture: any
+Depends: libqt5charts5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 Charts development files
+ Qt Charts module provides a set of easy to use chart components. It uses
+ the Qt Graphics View Framework, therefore charts can be easily integrated
+ to modern user interfaces.
+ .
+ This package contains the development files for the libqt5charts5 package
+
+Package: qml-module-qtcharts
+Section: libs
+Architecture: any
+Depends: libqt5charts5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 Charts QML Module
+ Qt Charts module provides a set of easy to use chart components. It uses
+ the Qt Graphics View Framework, therefore charts can be easily integrated
+ to modern user interfaces.
+ .
+ This package contains the Qt 5 Charts QML module. 
+
+Package: qt5charts-examples
+Section: x11
+Architecture: any
+Depends: libqt5charts5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 Charts QML Module
+ Qt Charts module provides a set of easy to use chart components. It uses
+ the Qt Graphics View Framework, therefore charts can be easily integrated
+ to modern user interfaces.
+ .
+ This package contains the Qt 5 Charts QML module. 

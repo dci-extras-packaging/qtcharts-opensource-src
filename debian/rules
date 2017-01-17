@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with pkgkde_symbolshelper --parallel
+
+override_dh_auto_configure:
+	qmake
+
+override_dh_clean:
+	rm -f qml/QtCharts/plugins.qmltypes qml/QtCharts/qmldir src/charts/QtCharts.version.in
+	dh_clean
