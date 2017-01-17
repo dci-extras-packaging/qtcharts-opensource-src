@@ -1,7 +1,7 @@
 Source: qtcharts-opensource-src
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools, qtbase5-dev
+Build-Depends: debhelper (>= 9), pkg-kde-tools, qtbase5-dev, qtdeclarative5-dev
 Standards-Version: 3.9.8
 Section: libs
 Homepage: http://qt-project.org/
@@ -35,7 +35,7 @@ Description: Qt 5 Charts QML Module
  the Qt Graphics View Framework, therefore charts can be easily integrated
  to modern user interfaces.
  .
- This package contains the Qt 5 Charts QML module. 
+ This package contains the Qt 5 Charts QML module.
 
 Package: qt5charts-examples
 Section: x11
@@ -46,4 +46,4 @@ Description: Qt 5 Charts QML Module
  the Qt Graphics View Framework, therefore charts can be easily integrated
  to modern user interfaces.
  .
- This package contains the Qt 5 Charts QML module. 
+ This package contains the Qt 5 Charts QML module.

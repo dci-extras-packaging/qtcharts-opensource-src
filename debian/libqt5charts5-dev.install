@@ -1,6 +1,6 @@
 usr/include/*/qt5/QtCharts/
 usr/lib/*/cmake/Qt5Charts/
 usr/lib/*/libQt5Charts.prl
-usr/lib/*/qt5/mkspecs/modules/
 usr/lib/*/libQt5Charts.so
 usr/lib/*/pkgconfig/Qt5Charts.pc
+usr/lib/*/qt5/mkspecs/modules/
